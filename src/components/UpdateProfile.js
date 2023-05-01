@@ -100,7 +100,7 @@ const UpdateProfile = () => {
         lastName={data.lastName}
         skills={data.skills}
         teamStatus={data.teamStatus}
-        imageURL="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+        imageURL={data.imageURL}
         track={data.track}
         interests={data.interests}
         geography={data.geography}
