@@ -46,7 +46,8 @@ const Signup = () => {
          briggs_tf: "NA",
          briggs_jp: "NA",
          favorites: ["placeholder@example.com"],
-         skills: ["Student"]
+         skills: ["Student"],
+         imageURL: "https://i.ibb.co/s6MP2pP/avatar.png"
       });
     } catch(err) {
       console.log("err: ", err);
